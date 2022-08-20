@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family:  'Raleway', sans-serif;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around; /*no me hace ese espaciado por keeeee :( creo que pq los converti en elementos de linea*/
+	align-items: center;
+	background-color: rosybrown;
+	height: 100px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: sticky;
+}
+
+.menu li  {
+	display: inline;
+	border: solid 1px;
+	border-color: burlywood;
+	background-color: beige;
+	border-radius: 10%;
+	padding: 10px;
+
+}
+
+.separacion {
+	margin: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+}
+
+
+.index {	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+
+	background-image: url("../img/fondoindex.jpg");
+	height: 400px;
+	max-width: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 50px;
+	color: floralwhite;
+}
+
+
+img {
+	height: auto;
+	max-width: 40%;
+}
+
+.servicios section{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+.servicios a {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+.clientas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+.clientas img {
+	height: auto;
+	max-width: 20%;
+}
+
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	height: 300px;
+	background-color: rosybrown;
+	padding: 20px;
+	text-align: center;
+}
+
+.contacto section {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+
+.contacto section form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.contacto img {
+	height: auto;
+	max-width: 40%%;
+}
